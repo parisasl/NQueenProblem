@@ -12,10 +12,13 @@ Using backtracking algorithm, The idea is to place queens one by one in differen
        then mark this [row, column] as part of the 
        solution and recursively check if placing
        queen here leads to a solution.
+       
     b) If placing the queen in [row, column] leads to
        a solution then return true.
+       
     c) If placing queen doesn't lead to a solution then
        unmark this [row, column] (Backtrack) and go to 
        step (a) to try other rows.
+       
 3) If all coloumn have been tried and nothing worked,
    return false to trigger backtracking.
