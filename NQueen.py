@@ -34,8 +34,9 @@ class NQueens:
                 positions[i] + i == column + ocuppied_rows:
                     return False
         return True
-    # The position of the queens have been determined and now we should demonstrate it.   
+    
     def show_full_board(self, positions):
+        # The position of the queens have been determined and now we should demonstrate it. 
         for row in range(self.size):
             line = ""
             for column in range(self.size):
