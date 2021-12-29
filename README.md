@@ -1,7 +1,7 @@
 # NQueenProblem
 The N Queen is the problem of placing N chess queens on an N×N chessboard so that no two queens attack each other.
 
-Using backtracking algorithm, The idea is to place queens one by one in different rows, starting from the first row. When we place a queen in a row, we check for clashes with queens that we already assigned for other rows. In the current row, if we find a coloumn for which there is no clash, we mark this row and column as part of the solution. If we do not find such a coloumn due to clashes then we backtrack and return false.
+Using backtracking algorithm, the idea is to place queens one by one in different rows, starting from the first row. Placing a queen in a row, I check for clashes with queens that have already been assigned for other rows. In the current row, if we find a coloumn for which there is no clash, this row and column can be marked as part of the solution. If we do not find such a coloumn due to clashes then we backtrack and return false.
 
 
 ![image](https://user-images.githubusercontent.com/55203321/147531996-3446e514-77c2-4fcd-b287-b7cdcfd0a3ae.png)
