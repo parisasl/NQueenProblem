@@ -47,8 +47,4 @@ class NQueens:
             print(line)
         print("\n")
          
-def main():
-     NQueens(4)
- 
-if __name__ == "__main__":    
-    main()
+NQueens(4)
