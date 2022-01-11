@@ -13,7 +13,7 @@ class NQueens:
  
     def put_queen(self, positions, target_row):
         if target_row == self.size:
-            '''if we check all the colomns and find a place for queens in each row, it means we have found
+            '''if we check all the rows and find a place for queens in each column, it means we have found
             solution and now, we need to show it.'''
             self.show_full_board(positions)
             self.solutions += 1
